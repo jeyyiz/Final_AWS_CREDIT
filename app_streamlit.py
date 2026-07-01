@@ -77,7 +77,7 @@ def main():
     with st.sidebar:
         st.header("About")
         st.info("Predicts credit score class for a financial institution's customers based on their financial profile.")
-        st.markdown("**Model:** LightGBM — served via AWS SageMaker endpoint.")
+        st.markdown("**Model:** LightGBM.")
 
     with st.form("prediction_form"):
         st.subheader("Profile")
